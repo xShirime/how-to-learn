@@ -6,20 +6,131 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
 }
+
 
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+	position: relative;
+	background-color: #f2f2f2;
+	display: flex;
   /* выше установили ограничения для секции */
+}
+
+.logo {
+	min-width: 228px;
+	min-height: 32px;
+}
+
+.header__logo {
+	position: absolute;
+	top: 30px;
+	left: 64px;
+}
+
+.title {
+	margin: auto 64px;
+	width: 730px;
+	line-height: 96px;
+	font-weight: 600;
+	font-size: 102px;
+}
+
+.main-illustration {
+	position: absolute;
+	z-index: 1;
+	right: 0;
+	bottom: 0;
+	max-width: 765px;
+	max-height: 608px;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+	position: absolute;
+	top: 64px;
+	right: 0;
+	z-index: 0;
+	background-color: #2F80ED;  /* В репозиторри нет картинки синего квадрата. Временное решение. ИСПРАВИТЬ! */
+}
+
+.subtitle {
+	position: absolute;
+	left: 64px;
+	bottom: 30px;
+	width: 388px;
+	line-height: 25px;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.header__link {
+	color: #2f80ed;
+}
+
+.description {
+	background-color: bisque;
+}
+
+.two-columns {
+	width: 80%;
+	min-width: 784px;
+	display: flex;
+	margin: 100px auto 100px;
+	border: 1px #2F80ED solid;
+	justify-content: space-between;
+}
+
+.brief {
+	width: 175px;
+}
+
+.brief-text {
+	line-height: 1.2;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.main-text {
+	width: 80%;
+	line-height: 34px;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+.two-columns__span-accent {
+	line-height: 34px;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.paragraph {
+	margin-bottom: 30px;
+}
+
+.paragraph:last-child {
+	margin-bottom: 0;
+}
+
+.section {
+	background-color: bisque;
+	display: flex;
+	justify-content: center;
+}
+
+.section-title {
+	width: 60%;
+	margin: 100px auto 20px;
+}
+
+.table {
+	border: #2F80ED 1px solid;
+	margin: 0 auto 100px;
 }
 
 /* и элемента с модификатором вида ключ-значение */
