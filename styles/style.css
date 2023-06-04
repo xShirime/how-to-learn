@@ -379,3 +379,21 @@ font-weight: 600;
 	min-height: 16px;
 	background-repeat: no-repeat;
 }
+
+.footer__link-icon-yt {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+}
+
+.footer__link-icon-vk {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+}
+
+.footer__link-icon-tt {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+}
