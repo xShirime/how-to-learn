@@ -27,7 +27,7 @@
 	min-height: 32px;
 }
 
-.logo_place-header {
+.logo_place_header {
 	position: absolute;
 	top: 30px;
 	left: 64px;
@@ -229,7 +229,7 @@
 	overflow: hidden;
 }
 
-.section-title_theme-dark {
+.section-title_theme_dark {
 	color: white;
 	width: 60%;
 	margin: 0 auto 0;
@@ -239,7 +239,7 @@
 	font-weight: 600;
 }
 
-.section-subtitle_theme-dark {
+.section-subtitle_theme_dark {
 	color: white;
 	width: 60%;
 	text-align: center;
@@ -250,7 +250,7 @@
 }
 
 /* и элемента с модификатором вида ключ-значение */
-.table__cell_theme-dark {
+.table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
@@ -258,20 +258,20 @@
 	list-style: none;
 }
 
-.table__heading_theme-dark {
+.table__heading_theme_dark {
 	margin: 0;
 line-height: 1.15;
 font-size: 24px;
 font-weight: 600;
 }
 
-.table__text_theme-dark {
+.table__text_theme_dark {
 	line-height: 1.2;
 	font-size: 18px;
 	font-weight: normal;
 }
 
-.table_theme-dark {
+.table_theme_dark {
 	margin-bottom: 90px;
 	z-index: 1;
 }
@@ -301,14 +301,14 @@ font-weight: 600;
 	justify-content: space-between;
 }
 
-.footer__columns_content-copyright {
+.footer__column_content_copyright {
 	flex-basis: 711px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 }
 
-.footer__columns_content_info {
+.footer__column_content_info {
 	display: flex;
 	flex-direction: column;
 }
