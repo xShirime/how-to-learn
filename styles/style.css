@@ -278,6 +278,7 @@ font-weight: 600;
 
 .kaufman__triangle {
 	background-image: url("../images/kaufman-triangle.svg");
+	background-size: contain;
 	position: absolute;
 	right: -210px;
 	top: 0;
@@ -313,7 +314,7 @@ font-weight: 600;
 	flex-direction: column;
 }
 
-.logo_place-footer {
+.logo_place_footer {
 	max-width: 228px;
 	max-height: 32px;
 }
