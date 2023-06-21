@@ -5,4 +5,6 @@
 	bottom: 0;
 	max-width: 765px;
 	max-height: 608px;
+	object-fit: contain;
+	object-position: right bottom;
 }
